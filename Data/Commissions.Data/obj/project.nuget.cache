@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "GWi+sfHVkUg=",
+  "dgSpecHash": "Q5PWS9oMviQ=",
   "success": true,
   "projectFilePath": "C:\\Projects\\sales-commission-calculator\\Data\\Commissions.Data\\Commissions.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\gxbba\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
+    "C:\\Users\\gxbba\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.1\\fluentvalidation.aspnetcore.11.3.1.nupkg.sha512",
+    "C:\\Users\\gxbba\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.11.0\\fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512",
     "C:\\Users\\gxbba\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\gxbba\\.nuget\\packages\\microsoft.build.framework\\18.0.2\\microsoft.build.framework.18.0.2.nupkg.sha512",
     "C:\\Users\\gxbba\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.11.0\\microsoft.codeanalysis.analyzers.3.11.0.nupkg.sha512",

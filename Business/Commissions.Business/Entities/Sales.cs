@@ -1,10 +1,7 @@
-using Commissions.Data.Entities;
-
-namespace Commissions.Data.Entities
+namespace Commissions.Business.Entities
 {
-    public class Sales
+    public class Sales : BaseEntity
     {
-        public Guid Id { get; set; }
         public decimal Total_Sales { get; set; }
         public decimal Discount { get; set; }
         public decimal Total_Commission { get; set; }

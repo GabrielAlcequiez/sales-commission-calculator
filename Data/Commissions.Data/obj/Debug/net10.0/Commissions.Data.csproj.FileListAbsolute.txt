@@ -1,0 +1,15 @@
+C:\Projects\sales-commission-calculator\Data\Commissions.Data\bin\Debug\net10.0\Commissions.Data.deps.json
+C:\Projects\sales-commission-calculator\Data\Commissions.Data\bin\Debug\net10.0\Commissions.Data.runtimeconfig.json
+C:\Projects\sales-commission-calculator\Data\Commissions.Data\bin\Debug\net10.0\Commissions.Data.dll
+C:\Projects\sales-commission-calculator\Data\Commissions.Data\bin\Debug\net10.0\Commissions.Data.pdb
+C:\Projects\sales-commission-calculator\Data\Commissions.Data\obj\Debug\net10.0\Commissions.Data.csproj.AssemblyReference.cache
+C:\Projects\sales-commission-calculator\Data\Commissions.Data\obj\Debug\net10.0\Commissions.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\sales-commission-calculator\Data\Commissions.Data\obj\Debug\net10.0\Commissions.Data.AssemblyInfoInputs.cache
+C:\Projects\sales-commission-calculator\Data\Commissions.Data\obj\Debug\net10.0\Commissions.Data.AssemblyInfo.cs
+C:\Projects\sales-commission-calculator\Data\Commissions.Data\obj\Debug\net10.0\Commissions.Data.csproj.CoreCompileInputs.cache
+C:\Projects\sales-commission-calculator\Data\Commissions.Data\obj\Debug\net10.0\Commissions.Data.sourcelink.json
+C:\Projects\sales-commission-calculator\Data\Commissions.Data\obj\Debug\net10.0\Commissions.Data.dll
+C:\Projects\sales-commission-calculator\Data\Commissions.Data\obj\Debug\net10.0\refint\Commissions.Data.dll
+C:\Projects\sales-commission-calculator\Data\Commissions.Data\obj\Debug\net10.0\Commissions.Data.pdb
+C:\Projects\sales-commission-calculator\Data\Commissions.Data\obj\Debug\net10.0\Commissions.Data.genruntimeconfig.cache
+C:\Projects\sales-commission-calculator\Data\Commissions.Data\obj\Debug\net10.0\ref\Commissions.Data.dll

@@ -1,8 +1,7 @@
-namespace Commissions.Data.Entities
+namespace Commissions.Business.Entities
 {
-    public class Country
+    public class Country : BaseEntity
     {
-        public Guid Id { get; set; }
         public string Name { get; set; } = string.Empty;
         public decimal Commission { get; set; }
         public bool IsActive { get; set; } = true;

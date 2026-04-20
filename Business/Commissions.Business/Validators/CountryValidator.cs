@@ -1,4 +1,4 @@
-using Commissions.Data.Entities;
+using Commissions.Business.Entities;
 using FluentValidation;
 
 public class CountryValidator : AbstractValidator<Country>
