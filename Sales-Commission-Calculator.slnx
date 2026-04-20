@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/Business/">
+    <Project Path="Business/Commissions.Business/Commissions.Business.csproj" />
+  </Folder>
+  <Folder Name="/Data/">
+    <Project Path="Data/Commissions.Data/Commissions.Data.csproj" />
+  </Folder>
+  <Folder Name="/Presentation/">
+    <Project Path="Presentation/Commissions.Api/Commissions.Api.csproj" />
+  </Folder>
+</Solution>

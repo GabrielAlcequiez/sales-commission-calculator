@@ -1,0 +1,6 @@
+@Commissions.Api_HostAddress = http://localhost:5210
+
+GET {{Commissions.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
