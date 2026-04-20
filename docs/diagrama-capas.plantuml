@@ -1,0 +1,30 @@
+@startuml
+!theme plain
+skinparam packageStyle rectangle
+skinparam roundCorner 10
+
+title Diagrama de Capas (Presentación, Lógica de Negocio y Datos)
+
+package "Capa de Presentación" #AliceBlue {
+    [React Frontend] as UI
+    [ASP.NET Core API] as API
+    UI <-> API : HTTP / JSON
+}
+
+package "Capa de Lógica de Negocio" #HoneyDew {
+    [ComisionesService] as Service
+}
+
+package "Capa de Datos" #Ivory {
+    [Repositorios\n(Venta & Pais)] as Repo
+    [Entidades\n(EF Core)] as Entities
+    Repo - Entities
+}
+
+database "PostgreSQL" as DB #GhostWhite
+
+' Flujo de Dependencias
+API --> Service : Petición de Cálculo
+Service --> Repo : Consulta Tasas y Guarda Historial
+Repo --> DB : Acceso a Datos
+@enduml
