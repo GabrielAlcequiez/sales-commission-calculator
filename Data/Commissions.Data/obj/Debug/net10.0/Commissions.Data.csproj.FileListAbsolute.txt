@@ -16,3 +16,5 @@ C:\Projects\sales-commission-calculator\Data\Commissions.Data\obj\Debug\net10.0\
 C:\Projects\sales-commission-calculator\Data\Commissions.Data\bin\Debug\net10.0\Commissions.Business.dll
 C:\Projects\sales-commission-calculator\Data\Commissions.Data\bin\Debug\net10.0\Commissions.Business.pdb
 C:\Projects\sales-commission-calculator\Data\Commissions.Data\obj\Debug\net10.0\Commissi.97CDC72E.Up2Date
+C:\Projects\sales-commission-calculator\Data\Commissions.Data\bin\Debug\net10.0\Commissions.Domain.dll
+C:\Projects\sales-commission-calculator\Data\Commissions.Data\bin\Debug\net10.0\Commissions.Domain.pdb

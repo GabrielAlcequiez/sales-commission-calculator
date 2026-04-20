@@ -876,6 +876,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
+          "Commissions.Domain": "1.0.0",
           "FluentValidation.AspNetCore": "11.3.1"
         },
         "compile": {
@@ -883,6 +884,16 @@
         },
         "runtime": {
           "bin/placeholder/Commissions.Business.dll": {}
+        }
+      },
+      "Commissions.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Commissions.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Commissions.Domain.dll": {}
         }
       }
     }
@@ -2769,11 +2780,17 @@
       "type": "project",
       "path": "../../Business/Commissions.Business/Commissions.Business.csproj",
       "msbuildProject": "../../Business/Commissions.Business/Commissions.Business.csproj"
+    },
+    "Commissions.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Domain/Commissions.Domain/Commissions.Domain.csproj",
+      "msbuildProject": "../../Domain/Commissions.Domain/Commissions.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
       "Commissions.Business >= 1.0.0",
+      "Commissions.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 10.0.6",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 10.0.1"
     ]
@@ -2813,6 +2830,9 @@
           "projectReferences": {
             "C:\\Projects\\sales-commission-calculator\\Business\\Commissions.Business\\Commissions.Business.csproj": {
               "projectPath": "C:\\Projects\\sales-commission-calculator\\Business\\Commissions.Business\\Commissions.Business.csproj"
+            },
+            "C:\\Projects\\sales-commission-calculator\\Domain\\Commissions.Domain\\Commissions.Domain.csproj": {
+              "projectPath": "C:\\Projects\\sales-commission-calculator\\Domain\\Commissions.Domain\\Commissions.Domain.csproj"
             }
           }
         }

@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v10.0": {
       "Commissions.Business/1.0.0": {
         "dependencies": {
+          "Commissions.Domain": "1.0.0",
           "FluentValidation.AspNetCore": "11.3.1"
         },
         "runtime": {
@@ -44,6 +45,14 @@
             "fileVersion": "11.11.0.0"
           }
         }
+      },
+      "Commissions.Domain/1.0.0": {
+        "runtime": {
+          "Commissions.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -73,6 +82,11 @@
       "sha512": "sha512-viTKWaMbL3yJYgGI0DiCeavNbE9UPMWFVK2XS9nYXGbm3NDMd0/L5ER4wBzmTtW3BYh3SrlSXm9RACiKZ6stlA==",
       "path": "fluentvalidation.dependencyinjectionextensions/11.11.0",
       "hashPath": "fluentvalidation.dependencyinjectionextensions.11.11.0.nupkg.sha512"
+    },
+    "Commissions.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

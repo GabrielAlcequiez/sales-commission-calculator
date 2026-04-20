@@ -1,4 +1,4 @@
-using Commissions.Business.Entities;
+using Commissions.Domain.Entities;
 using Commissions.Business.Services;
 using Microsoft.AspNetCore.Mvc;
 

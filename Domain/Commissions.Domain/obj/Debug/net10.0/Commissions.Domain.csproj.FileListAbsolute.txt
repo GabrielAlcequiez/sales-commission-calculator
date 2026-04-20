@@ -1,0 +1,12 @@
+C:\Projects\sales-commission-calculator\Domain\Commissions.Domain\bin\Debug\net10.0\Commissions.Domain.deps.json
+C:\Projects\sales-commission-calculator\Domain\Commissions.Domain\bin\Debug\net10.0\Commissions.Domain.dll
+C:\Projects\sales-commission-calculator\Domain\Commissions.Domain\bin\Debug\net10.0\Commissions.Domain.pdb
+C:\Projects\sales-commission-calculator\Domain\Commissions.Domain\obj\Debug\net10.0\Commissions.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\sales-commission-calculator\Domain\Commissions.Domain\obj\Debug\net10.0\Commissions.Domain.AssemblyInfoInputs.cache
+C:\Projects\sales-commission-calculator\Domain\Commissions.Domain\obj\Debug\net10.0\Commissions.Domain.AssemblyInfo.cs
+C:\Projects\sales-commission-calculator\Domain\Commissions.Domain\obj\Debug\net10.0\Commissions.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\sales-commission-calculator\Domain\Commissions.Domain\obj\Debug\net10.0\Commissions.Domain.sourcelink.json
+C:\Projects\sales-commission-calculator\Domain\Commissions.Domain\obj\Debug\net10.0\Commissions.Domain.dll
+C:\Projects\sales-commission-calculator\Domain\Commissions.Domain\obj\Debug\net10.0\refint\Commissions.Domain.dll
+C:\Projects\sales-commission-calculator\Domain\Commissions.Domain\obj\Debug\net10.0\Commissions.Domain.pdb
+C:\Projects\sales-commission-calculator\Domain\Commissions.Domain\obj\Debug\net10.0\ref\Commissions.Domain.dll

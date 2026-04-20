@@ -1,4 +1,4 @@
-namespace Commissions.Business.Entities
+namespace Commissions.Domain.Entities
 {
     public abstract class BaseEntity
     {

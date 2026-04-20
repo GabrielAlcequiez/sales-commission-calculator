@@ -64,6 +64,16 @@
             "related": ".xml"
           }
         }
+      },
+      "Commissions.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Commissions.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Commissions.Domain.dll": {}
+        }
       }
     }
   },
@@ -141,10 +151,16 @@
         "microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec"
       ]
+    },
+    "Commissions.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Domain/Commissions.Domain/Commissions.Domain.csproj",
+      "msbuildProject": "../../Domain/Commissions.Domain/Commissions.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "Commissions.Domain >= 1.0.0",
       "FluentValidation.AspNetCore >= 11.3.1"
     ]
   },
@@ -180,7 +196,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projects\\sales-commission-calculator\\Domain\\Commissions.Domain\\Commissions.Domain.csproj": {
+              "projectPath": "C:\\Projects\\sales-commission-calculator\\Domain\\Commissions.Domain\\Commissions.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

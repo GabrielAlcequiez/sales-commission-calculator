@@ -1,4 +1,4 @@
-using Commissions.Business.Entities;
+using Commissions.Domain.Entities;
 using FluentValidation;
 
 namespace Commissions.Business.Validators

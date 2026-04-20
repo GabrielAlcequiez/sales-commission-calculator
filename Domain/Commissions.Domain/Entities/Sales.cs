@@ -1,4 +1,4 @@
-namespace Commissions.Business.Entities
+namespace Commissions.Domain.Entities
 {
     public class Sales : BaseEntity
     {
@@ -6,9 +6,8 @@ namespace Commissions.Business.Entities
         public decimal Discount { get; set; }
         public decimal Total_Commission { get; set; }
         
-        public Guid Id_Country { get; set; } // FK
+        public Guid Id_Country { get; set; }
         
-        // Propiedad de navegación: Una venta pertenece a un país
         public Country Country{ get; set; } = null!; 
         
         public DateTime CreatedAt { get; set; }

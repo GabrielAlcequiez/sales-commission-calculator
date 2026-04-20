@@ -1,6 +1,6 @@
-using Commissions.Business.Entities;
+using Commissions.Domain.Entities;
 
-namespace Commissions.Business.Interfaces
+namespace Commissions.Domain.Interfaces
 {
 public interface IBaseRepository<T> where T : BaseEntity
 {

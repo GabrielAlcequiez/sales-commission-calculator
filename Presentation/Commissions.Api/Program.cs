@@ -1,5 +1,5 @@
-using Commissions.Business.Entities;
-using Commissions.Business.Interfaces;
+using Commissions.Domain.Entities;
+using Commissions.Domain.Interfaces;
 using Commissions.Business.Services;
 using Commissions.Business.Validators;
 using Commissions.Data;

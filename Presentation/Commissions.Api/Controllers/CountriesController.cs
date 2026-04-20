@@ -1,5 +1,5 @@
-using Commissions.Business.Entities;
-using Commissions.Business.Interfaces;
+using Commissions.Domain.Entities;
+using Commissions.Domain.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Commissions.Api.Controllers

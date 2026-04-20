@@ -1,6 +1,5 @@
-using Commissions.Business.Entities;
-using Commissions.Business.Interfaces;
-using Commissions.Business.Validators;
+using Commissions.Domain.Entities;
+using Commissions.Domain.Interfaces;
 using FluentValidation;
 
 namespace Commissions.Business.Services

@@ -552,6 +552,7 @@
       },
       "Commissions.Business/1.0.0": {
         "dependencies": {
+          "Commissions.Domain": "1.0.0",
           "FluentValidation.AspNetCore": "11.3.1"
         },
         "runtime": {
@@ -564,10 +565,19 @@
       "Commissions.Data/1.0.0": {
         "dependencies": {
           "Commissions.Business": "1.0.0",
+          "Commissions.Domain": "1.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.1"
         },
         "runtime": {
           "Commissions.Data.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Commissions.Domain/1.0.0": {
+        "runtime": {
+          "Commissions.Domain.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -804,6 +814,11 @@
       "sha512": ""
     },
     "Commissions.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Commissions.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

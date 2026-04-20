@@ -763,6 +763,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
+          "Commissions.Domain": "1.0.0",
           "FluentValidation.AspNetCore": "11.3.1"
         },
         "compile": {
@@ -777,6 +778,7 @@
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
           "Commissions.Business": "1.0.0",
+          "Commissions.Domain": "1.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.1"
         },
         "compile": {
@@ -784,6 +786,16 @@
         },
         "runtime": {
           "bin/placeholder/Commissions.Data.dll": {}
+        }
+      },
+      "Commissions.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/Commissions.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Commissions.Domain.dll": {}
         }
       }
     }
@@ -2451,6 +2463,11 @@
       "type": "project",
       "path": "../../Data/Commissions.Data/Commissions.Data.csproj",
       "msbuildProject": "../../Data/Commissions.Data/Commissions.Data.csproj"
+    },
+    "Commissions.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Domain/Commissions.Domain/Commissions.Domain.csproj",
+      "msbuildProject": "../../Domain/Commissions.Domain/Commissions.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {

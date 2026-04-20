@@ -1,4 +1,4 @@
-namespace Commissions.Business.Entities
+namespace Commissions.Domain.Entities
 {
     public class Country : BaseEntity
     {
@@ -6,7 +6,6 @@ namespace Commissions.Business.Entities
         public decimal Commission { get; set; }
         public bool IsActive { get; set; } = true;
 
-        // Propiedad de navegación: Un país tiene muchas ventas
         public ICollection<Sales> Sales { get; set; } = new List<Sales>();
     }
 }

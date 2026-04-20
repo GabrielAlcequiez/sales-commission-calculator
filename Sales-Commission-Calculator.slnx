@@ -2,6 +2,9 @@
   <Folder Name="/Business/">
     <Project Path="Business/Commissions.Business/Commissions.Business.csproj" />
   </Folder>
+  <Folder Name="/Domain/">
+    <Project Path="Domain/Commissions.Domain/Commissions.Domain.csproj" />
+  </Folder>
   <Folder Name="/Data/">
     <Project Path="Data/Commissions.Data/Commissions.Data.csproj" />
   </Folder>

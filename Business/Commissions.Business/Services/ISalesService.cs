@@ -1,4 +1,4 @@
-using Commissions.Business.Entities;
+using Commissions.Domain.Entities;
 
 namespace Commissions.Business.Services
 {
