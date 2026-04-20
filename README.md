@@ -21,6 +21,6 @@ Para garantizar una separación clara de responsabilidades, el sistema utiliza u
 
 ## Tecnologías Utilizadas
 * **Frontend**: React + TypeScript.
-* **Backend**: .NET 8 (C#).
+* **Backend**: .NET 10 (C#).
 * **Base de Datos**: PostgreSQL.
 * **ORM**: Entity Framework Core.
