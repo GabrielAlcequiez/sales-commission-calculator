@@ -1,6 +1,8 @@
 using Commissions.Business.Entities;
 using FluentValidation;
 
+namespace Commissions.Business.Validators
+{
 public class CountryValidator : AbstractValidator<Country>
 {
     public CountryValidator()
@@ -13,4 +15,5 @@ public class CountryValidator : AbstractValidator<Country>
         .InclusiveBetween(0, 100)
         .WithMessage("La comisión debe estar entre 0 y 100%.");
     }
+}
 }

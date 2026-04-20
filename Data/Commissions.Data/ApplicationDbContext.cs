@@ -1,4 +1,4 @@
-using Commissions.Data.Entities;
+using Commissions.Business.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace Commissions.Data

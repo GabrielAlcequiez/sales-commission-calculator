@@ -11,6 +11,6 @@ namespace Commissions.Business.Entities
         // Propiedad de navegación: Una venta pertenece a un país
         public Country Country{ get; set; } = null!; 
         
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+        public DateTime CreatedAt { get; set; }
     }
 }

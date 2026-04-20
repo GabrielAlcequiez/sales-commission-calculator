@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Commissions.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+396ce939155c7cfb649fd6d99a4c98bf9af57806")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6ea1c77f38ee10aa5fc34dfa93ad4d04aa768d38")]
 [assembly: System.Reflection.AssemblyProductAttribute("Commissions.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Commissions.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
