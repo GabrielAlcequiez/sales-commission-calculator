@@ -8,7 +8,7 @@ namespace Commissions.Domain.Entities
         
         public Guid Id_Country { get; set; }
         
-        public Country Country{ get; set; } = null!; 
+        public Country? Country{ get; set; } 
         
         public DateTime CreatedAt { get; set; }
     }
