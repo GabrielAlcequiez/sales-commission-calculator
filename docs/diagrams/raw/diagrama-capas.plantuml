@@ -2,29 +2,54 @@
 !theme plain
 skinparam packageStyle rectangle
 skinparam roundCorner 10
+skinparam direction top to bottom
 
-title Diagrama de Capas (Presentación, Lógica de Negocio y Datos)
+title Diagrama de Capas con Dominio (N-Tier Lineal)
 
+' --- CAPA DE PRESENTACIÓN ---
 package "Capa de Presentación" #AliceBlue {
-    [React Frontend] as UI
-    [ASP.NET Core API] as API
+    [React Frontend] as UI <<Componente>>
+    [ASP.NET Core API] as API <<API REST>>
     UI <-> API : HTTP / JSON
 }
 
+' --- CAPA DE LÓGICA DE NEGOCIO ---
 package "Capa de Lógica de Negocio" #HoneyDew {
-    [ComisionesService] as Service
+    [ComisionesService] as Service <<Servicio>>
+    [Validators] as Val <<FluentValidation>>
 }
 
+' --- CAPA DE DOMINIO ---
+package "Capa de Dominio" #Lavender {
+    [Entidades\n(Sales & Country)] as Entities 
+    [Interfaces Repository] as Interfaces 
+    Entities - Interfaces
+}
+
+' --- CAPA DE DATOS ---
 package "Capa de Datos" #Ivory {
-    [Repositorios\n(Venta & Pais)] as Repo
-    [Entidades\n(EF Core)] as Entities
-    Repo - Entities
+    [Implementación Repositorios] as RepoImpl
+    [ApplicationDbContext] as DBContext <<EF Core>>
+    
 }
 
 database "PostgreSQL" as DB #GhostWhite
 
-' Flujo de Dependencias
-API --> Service : Petición de Cálculo
-Service --> Repo : Consulta Tasas y Guarda Historial
-Repo --> DB : Acceso a Datos
+' --- FLUJO DE EJECUCIÓN (Arriba -> Abajo) ---
+' Flechas de solicitud de servicio
+API ==> Service : Petición de Cálculo
+
+' El servicio usa el Dominio y pide persistencia vía Interface
+Service --> Val : 1. Valida
+Service ==> Interfaces : 2. Usa Contratos (IVentaRepo)
+Service --> Entities : 3. Manipula
+
+' Data implementa Domain (Inversión: Data depende de Domain)
+RepoImpl .UP.> Interfaces : Implementa
+RepoImpl .UP.> Entities : Usa
+
+
+RepoImpl ==> DBContext : Usa EF Core
+DBContext ==> DB : Acceso Físico a Datos
+
 @enduml
