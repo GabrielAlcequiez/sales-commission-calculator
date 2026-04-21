@@ -35,7 +35,8 @@ namespace Commissions.Business.Services
             }
 
             var baseAmount = sale.Total_Sales - sale.Discount;
-            sale.Total_Commission = baseAmount * country.Commission;
+            var commissionRate = country.Commission / 100m; // Convierte 10 → 0.10, 15 → 0.15, 12 → 0.12
+            sale.Total_Commission = baseAmount * commissionRate;
             sale.CreatedAt = DateTime.UtcNow;
 
             await _salesRepository.AddAsync(sale);
