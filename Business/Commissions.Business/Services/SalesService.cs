@@ -36,7 +36,6 @@ namespace Commissions.Business.Services
 
             var baseAmount = sale.Total_Sales - sale.Discount;
             sale.Total_Commission = baseAmount * country.Commission;
-            sale.Id = Guid.CreateVersion7();
             sale.CreatedAt = DateTime.UtcNow;
 
             await _salesRepository.AddAsync(sale);
