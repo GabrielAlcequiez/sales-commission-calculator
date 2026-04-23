@@ -16,7 +16,8 @@ Para garantizar una separación clara de responsabilidades, el sistema utiliza u
 
 1.  **Capa de Presentación**: Interfaz de usuario en **React/TypeScript** y controladores REST en **ASP.NET Core API**.
 2.  **Capa de Lógica de Negocio**: Motor de cálculo en **.NET 10** donde residen las validaciones y cálculos de comisión.
-3.  **Capa de Datos**: Persistencia en base de datos gestionada mediante **Entity Framework Core** para el manejo del histórico.
+3.  **Capa de Dominio**: El núcleo del sistema. Contiene las Entidades (modelos de negocio) y las Interfaces de Repositorio, definiendo el "qué" debe hacer el sistema sin preocuparse por el "cómo".
+4.  **Capa de Datos**: Persistencia en base de datos gestionada mediante **Entity Framework Core** para el manejo del histórico.
 
 ## Tecnologías Utilizadas
 * **Frontend**: React + TypeScript + Vite + CSS Nativo
@@ -55,14 +56,15 @@ Abre el archivo `Presentation\Commissions.Api\appsettings.json` y configura tu c
 ```
 
 ### 4. Crear Base de Datos y Ejecutar Migraciones
-El repositorio contiene Entity Framework para inicializar los esquemas e insertar los países (Semilla/Seed).
+El repositorio contiene Entity Framework para inicializar los esquemas e insertar los países.
 
+Primero, instalar la herramienta global de ER, en caso de no tenerla y luego, desde la raiz del proyecto, ejecutar las migraciones,
+para crear las tablas e insertar los datos iniciales.
 ```bash
-# Cambiar al directorio del proyecto de Base de Datos
-cd Data\Commissions.Data
+dotnet tool install --global dotnet-ef
 
 # Correr las migraciones hacia la base de Postgres usando el ensamblado de la API
-dotnet ef database update --startup-project ..\..\Presentation\Commissions.Api\Commissions.Api.csproj
+dotnet ef database update --project Data/Commissions.Data --startup-project Presentation/Commissions.Api
 ```
 
 ### 5. Iniciar la API Backend
@@ -87,4 +89,4 @@ npm install
 npm run dev
 ```
 
-El Frontend ahora estará corriendo en `http://localhost:5173/`. 
+El Frontend ahora estará corriendo en `http://localhost:5173/` (revisar nuevamente en caso de que pueda variar.). 
