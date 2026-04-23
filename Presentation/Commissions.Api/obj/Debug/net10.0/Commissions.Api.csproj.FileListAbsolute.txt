@@ -133,4 +133,3 @@ C:\Projects\sales-commission-calculator\Presentation\Commissions.Api\bin\Debug\n
 C:\Projects\sales-commission-calculator\Presentation\Commissions.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Projects\sales-commission-calculator\Presentation\Commissions.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Projects\sales-commission-calculator\Presentation\Commissions.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Projects\sales-commission-calculator\Presentation\Commissions.Api\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
