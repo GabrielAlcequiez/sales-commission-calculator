@@ -5,6 +5,7 @@ namespace Commissions.Business.Validators
 {
     public class SalesValidator : AbstractValidator<Sales>
     {
+        // Un poco de discrepancia en el documento, actualmente si estan integradas las validaciones
         public SalesValidator()
         {
             RuleFor(x => x.Total_Sales)

@@ -5,6 +5,7 @@ namespace Commissions.Business.Validators
 {
 public class CountryValidator : AbstractValidator<Country>
 {
+    // Un poco de discrepancia en el documento, actualmente si estan integradas las validaciones
     public CountryValidator()
     {
         RuleFor(c => c.Name)
